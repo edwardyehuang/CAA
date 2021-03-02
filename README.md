@@ -1,6 +1,8 @@
 # CAA
 CAA: Channelized Axial Attention for Semantic Segmentation
 
+Code will be available soon. 
+
 Please cite us
 
 ```
