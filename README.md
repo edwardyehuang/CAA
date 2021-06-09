@@ -7,7 +7,7 @@ CAA: Channelized Axial Attention for Semantic Segmentation
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/caa-channelized-axial-attention-for-semantic/semantic-segmentation-on-cityscapes)](https://paperswithcode.com/sota/semantic-segmentation-on-cityscapes?p=caa-channelized-axial-attention-for-semantic)
 
-Code will be available in this repo. 
+Code will be available in this repo. We also tested our CAA on COCOStuff full set (164k) with EfficientNet-B5, achieving 47.30% mIOU.
 
 Please cite us
 
