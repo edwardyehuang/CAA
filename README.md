@@ -1,4 +1,7 @@
 # CAA
+
+NEWS: OMG, the code is on the way, will be released soon!
+
 CAA: Channelized Axial Attention for Semantic Segmentation
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/caa-channelized-axial-attention-for-semantic/semantic-segmentation-on-coco-stuff-test)](https://paperswithcode.com/sota/semantic-segmentation-on-coco-stuff-test?p=caa-channelized-axial-attention-for-semantic)
