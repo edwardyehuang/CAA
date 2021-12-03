@@ -1,8 +1,6 @@
 # CAA
 
-NEWS: OMG, the code is on the way, will be released soon!
-
-CAA: Channelized Axial Attention for Semantic Segmentation
+Channelized Axial Attention for Semantic Segmentation
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/caa-channelized-axial-attention-for-semantic/semantic-segmentation-on-coco-stuff-test)](https://paperswithcode.com/sota/semantic-segmentation-on-coco-stuff-test?p=caa-channelized-axial-attention-for-semantic)
 
@@ -12,7 +10,18 @@ CAA: Channelized Axial Attention for Semantic Segmentation
 
 Code will be available in this repo. We also tested our CAA on COCOStuff full set (164k) with EfficientNet-B5, achieving 47.30% mIOU.
 
-Please cite us
+## News
+* 01-Dec-2021 : OMG, the code is on the way, will be released soon!
+
+## Installation
+1. Install TensorFlow (>= 2.4, 2.3 is not recommend for GPU, but okay for TPU)
+2. Install iSeg (My personal framework, comming soon at https://github.com/edwardyehuang/iSeg)
+3. Clone this repo
+
+Do not afraid TensorFlow, recent versions (>= 2.4) is even easier than Pytorch in same case (And everything now has simliar usage with Pytorch, even in graph mode).
+
+
+## Please cite us
 
 ```
 @article{Huang2021CAAC,
