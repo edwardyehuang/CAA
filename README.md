@@ -18,7 +18,7 @@ Code will be available in this repo. We also tested our CAA on COCOStuff full se
 2. Install iSeg (My personal framework, comming soon at https://github.com/edwardyehuang/iSeg)
 3. Clone this repo
 
-Do not afraid TensorFlow, recent versions (>= 2.4) is even easier than Pytorch in same case (And everything now has simliar usage with Pytorch, even in graph mode).
+Do not afraid TensorFlow, recent versions (>= 2.4) is even easier than Pytorch in some case (And everything now has simliar usage with Pytorch, even in graph mode).
 
 ## Model Zoo
 Comming soon
