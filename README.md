@@ -16,8 +16,9 @@ Code will be available in this repo. We also tested our CAA on COCOStuff full se
 
 ## Installation
 1. Install TensorFlow (>= 2.4, 2.3 is not recommend for GPU, but okay for TPU)
-2. Install iSeg (My personal framework, update soon at https://github.com/edwardyehuang/iSeg)
-3. Clone this repo
+2. Install iSeg (My personal segmentation codebase, update soon at https://github.com/edwardyehuang/iSeg)
+3. Install iDS (Dataset supports for iSeg, comming soon at https://github.com/edwardyehuang/iDS)
+4. Clone this repo
 
 Do not afraid TensorFlow, recent versions (>= 2.4) is even easier than Pytorch in some case (And everything now has simliar usage with Pytorch, even in graph mode).
 
