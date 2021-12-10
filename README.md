@@ -15,13 +15,14 @@ Some segmentation results on Flickr images:
 <img src="https://raw.githubusercontent.com/edwardyehuang/iSeg/master/demo.png" width=450>
 
 ## News
+* 10-Dec-2021 : I start to update the dataset repo, iDs(https://github.com/edwardyehuang/iDS)
 * 07-Dec-2021 : I start to update the base repo, iSeg (https://github.com/edwardyehuang/iSeg)
 * 01-Dec-2021 : OMG, the code is on the way, will be released soon!
 
 ## Installation
 1. Install TensorFlow (>= 2.4, 2.3 is not recommend for GPU, but okay for TPU)
 2. Install iSeg (My personal segmentation codebase, update soon at https://github.com/edwardyehuang/iSeg)
-3. Install iDS (Dataset supports for iSeg, comming soon at https://github.com/edwardyehuang/iDS)
+3. Install iDS (Dataset supports for iSeg, update soon at https://github.com/edwardyehuang/iDS)
 4. Clone this repo
 
 Do not afraid TensorFlow, recent versions (>= 2.4) is even easier than Pytorch in some case (And everything now has simliar usage with Pytorch, even in graph mode).
