@@ -34,6 +34,11 @@ Do not afraid TensorFlow, recent versions (>= 2.4) is even easier than Pytorch i
 
 ### COCOStuff-10k
 
+|  Backbone   | ckpts  | configs |
+|  ----  | ----  | ---- |
+| ResNet-101  | [weiyun](https://share.weiyun.com/LtcKwuhK) | configs |
+| EfficientNet-B7  | weiyun | configs |
+
 ## Inference on iPhone
 Comming Soon
 
