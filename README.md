@@ -29,7 +29,7 @@ Do not be afraid of TensorFlow, recent versions (>= 2.4) is even easier than Pyt
 
 
 ## Model Zoo
-Since some of the original experiments (especially for ResNet-101) are conducted a long time ago, the ckpts listed below may have been slightly different performance with paper reported.
+Since some of the original experiments (especially for ResNet-101) are conducted a long time ago, the ckpts listed below may have slightly different performance with paper reported.
 
 ### Pascal Context
 
