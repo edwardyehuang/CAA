@@ -25,19 +25,28 @@ Some segmentation results on Flickr images:
 3. Install iDS (Dataset supports for iSeg, update soon at https://github.com/edwardyehuang/iDS)
 4. Clone this repo
 
-Do not afraid TensorFlow, recent versions (>= 2.4) is even easier than Pytorch in some case (And everything now has simliar usage with Pytorch, even in graph mode).
+Do not be afraid of TensorFlow, recent versions (>= 2.4) is even easier than Pytorch in some case (And everything now has similar usage with Pytorch, even in graph mode).
+
 
 ## Model Zoo
+Since some of the original experiments (especially for ResNet-101) are conducted a long time ago, the ckpts listed below may have been slightly different performance with paper reported.
 
 ### Pascal Context
+
+|  Backbone   | ckpts  | mIOU% | configs |
+|  ----  | ----  | ---- | ---- |
+| ResNet-101  | [weiyun](https://share.weiyun.com/nSUwp76n) |55.0|configs |
+| EfficientNet-B7  | [weiyun](https://share.weiyun.com/uMXjsmXf)|60.3| configs |
 
 
 ### COCOStuff-10k
 
-|  Backbone   | ckpts  | configs |
-|  ----  | ----  | ---- |
-| ResNet-101  | [weiyun](https://share.weiyun.com/LtcKwuhK) | configs |
-| EfficientNet-B7  | weiyun | configs |
+|  Backbone   | ckpts  | mIOU% | configs |
+|  ----  | ----  | ---- | ---- |
+| ResNet-101  | [weiyun](https://share.weiyun.com/LtcKwuhK) |41.2| configs |
+
+### COCOStuff-164k
+
 
 ## Inference on iPhone
 Comming Soon
