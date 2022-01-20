@@ -8,8 +8,6 @@ Channelized Axial Attention for Semantic Segmentation
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/caa-channelized-axial-attention-for-semantic/semantic-segmentation-on-cityscapes)](https://paperswithcode.com/sota/semantic-segmentation-on-cityscapes?p=caa-channelized-axial-attention-for-semantic)
 
-Code will be available in this repo. We also tested our CAA on COCOStuff full set (164k) with EfficientNet-B5, achieved 47.30% mIOU.
-
 Some segmentation results on Flickr images:
 
 <img src="https://raw.githubusercontent.com/edwardyehuang/iSeg/master/demo.png" width=450>
@@ -46,6 +44,10 @@ Since some of the original experiments (especially for ResNet-101) are conducted
 | ResNet-101  | [weiyun](https://share.weiyun.com/LtcKwuhK) |41.2| configs |
 
 ### COCOStuff-164k
+
+|  Backbone   | ckpts  | mIOU% | configs |
+|  ----  | ----  | ---- | ---- |
+| EfficientNet-B5  | [weiyun](https://share.weiyun.com/p5xbCE55) |47.27| configs |
 
 
 ## Inference on iPhone
