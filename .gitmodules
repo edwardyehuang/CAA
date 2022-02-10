@@ -1,0 +1,6 @@
+[submodule "iseg"]
+	path = iseg
+	url = https://github.com/edwardyehuang/iSeg.git
+[submodule "ids"]
+	path = ids
+	url = https://github.com/edwardyehuang/iDS
