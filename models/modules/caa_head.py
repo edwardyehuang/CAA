@@ -1,3 +1,8 @@
+# ================================================================
+# MIT License
+# Copyright (c) 2021 edwardyehuang (https://github.com/edwardyehuang)
+# ================================================================
+
 import tensorflow as tf
 from iseg.layers import DenseExt
 
@@ -16,7 +21,6 @@ class ChannelizedAxialAttentionHead(tf.keras.Model):
         use_image_level=True,
         num_parallel_group_fn=16,
         fallback_concat=False,
-        use_self_confident=False,
         use_entry_conv=True,
         name=None,
     ):
@@ -42,7 +46,6 @@ class ChannelizedAxialAttentionHead(tf.keras.Model):
                 use_channel_attention=use_channel_attention,
                 num_parallel_group_fn=num_parallel_group_fn,
                 fallback_concat=fallback_concat,
-                use_self_confident=use_self_confident,
                 name="ca_block".format(i),
             )
             for i in range(attention_blocks_num)
@@ -160,7 +163,6 @@ class AxialAttentionBlock(tf.keras.Model):
         channel_attention_norm=False,
         num_parallel_group_fn=16,
         fallback_concat=False,
-        use_self_confident=False,
         name=None,
     ):
 
@@ -170,7 +172,6 @@ class AxialAttentionBlock(tf.keras.Model):
         self.use_channel_attention = use_channel_attention
         self.fallback_concat = fallback_concat
         self.num_parallel_group_fn = num_parallel_group_fn
-        self.use_self_confident = use_self_confident
 
         self.v_querykey_convbnrelu = ConvBnRelu(guided_filters, (1, 1), name="v_querykey_conv")
         self.h_querykey_convbnrelu = ConvBnRelu(guided_filters, (1, 1), name="h_querykey_conv")
