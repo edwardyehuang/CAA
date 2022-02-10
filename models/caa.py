@@ -32,7 +32,7 @@ class CAA(SegFoundation):
         **kwargs,
     ):
 
-        super(FatNet, self).__init__(
+        super().__init__(
             num_class=num_class,
             num_aux_loss=1 if use_aux_loss else 0,
             aux_loss_rate=aux_loss_rate,
