@@ -15,7 +15,7 @@ from models.modules.caa_head import ChannelizedAxialAttentionHead
 
 # CAA was implemented in 2020, long time ago
 # SegFoundation will be replaced by segmanaged in future (after I have time)
-class FatNet(SegFoundation):
+class CAA(SegFoundation):
     def __init__(
         self,
         backbone_name=ss.RESNET50,
