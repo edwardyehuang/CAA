@@ -1,6 +1,4 @@
-# CAA
-
-Channelized Axial Attention for Semantic Segmentation
+# CAA : Channelized Axial Attention for Semantic Segmentation
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/caa-channelized-axial-attention-for-semantic/semantic-segmentation-on-coco-stuff-test)](https://paperswithcode.com/sota/semantic-segmentation-on-coco-stuff-test?p=caa-channelized-axial-attention-for-semantic)
 
@@ -11,11 +9,6 @@ Channelized Axial Attention for Semantic Segmentation
 Some segmentation results on Flickr images:
 
 <img src="https://raw.githubusercontent.com/edwardyehuang/iSeg/master/demo.png" width=450>
-
-## News
-* 10-Dec-2021 : I start to update the dataset repo, iDs(https://github.com/edwardyehuang/iDS)
-* 07-Dec-2021 : I start to update the base repo, iSeg (https://github.com/edwardyehuang/iSeg)
-* 01-Dec-2021 : OMG, the code is on the way, will be released soon!
 
 ## Installation
 1. Install TensorFlow (>= 2.4, 2.3 is not recommend for GPU, but okay for TPU)
