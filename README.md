@@ -1,4 +1,4 @@
-# CAA : Channelized Axial Attention for Semantic Segmentation
+# Channelized Axial Attention for Semantic Segmentation (AAAI-2022)
 
 ## News
 Mar-16-2022: Based on the latest [Class-aware Regularizations (CAR)](https://github.com/edwardyehuang/CAR), CAA + ConvNeXt-Large achieved 64.12% mIOU on Pascal Context!
