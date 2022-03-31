@@ -50,7 +50,7 @@ Comming Soon
 
 ```
 @article{Huang2021CAAC,
-  title={CAA : Channelized Axial Attention for Semantic Segmentation},
+  title={Channelized Axial Attention -- Considering Channel Relation within Spatial Attention for Semantic Segmentation},
   author={Y. Huang Di Kang and Wenjing Jia and X. He and Liu Liu},
   journal={ArXiv},
   year={2021},
