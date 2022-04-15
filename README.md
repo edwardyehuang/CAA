@@ -43,9 +43,6 @@ Since some of the original experiments (especially for ResNet-101) are conducted
 | EfficientNet-B5  | [weiyun](https://share.weiyun.com/p5xbCE55) |47.27| configs |
 
 
-## Inference on iPhone
-Comming Soon
-
 ## Please cite us
 
 ```
