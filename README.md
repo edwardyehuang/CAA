@@ -1,7 +1,7 @@
 # Channelized Axial Attention for Semantic Segmentation (AAAI-2022)
 
 ## News
-Mar-16-2022: Based on the latest [Class-aware Regularizations (CAR)](https://github.com/edwardyehuang/CAR), CAA + ConvNeXt-Large achieved 64.12% mIOU on Pascal Context!
+Mar-16-2022: Based on the latest [Class-aware Regularizations (CAR)](https://github.com/edwardyehuang/CAR), CAA + ConvNeXt-Large achieved 64.12% mIOU on Pascal Context! The [repo](https://github.com/edwardyehuang/CAR) of CAR also contains the train code for CAA.
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/caa-channelized-axial-attention-for-semantic/semantic-segmentation-on-coco-stuff-test)](https://paperswithcode.com/sota/semantic-segmentation-on-coco-stuff-test?p=caa-channelized-axial-attention-for-semantic)
 
