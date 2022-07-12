@@ -46,11 +46,11 @@ Since some of the original experiments (especially for ResNet-101) are conducted
 ## Please cite us
 
 ```
-@article{Huang2021CAAC,
-  title={Channelized Axial Attention -- Considering Channel Relation within Spatial Attention for Semantic Segmentation},
-  author={Y. Huang Di Kang and Wenjing Jia and X. He and Liu Liu},
-  journal={ArXiv},
-  year={2021},
-  volume={abs/2101.07434}
+@InProceedings{cCAA,
+	author = "Ye Huang and Di Kang and Wenjing Jia and Xiangjian He and Liu liu",
+	title = "Channelized Axial Attention - Considering Channel Relation within Spatial Attention for Semantic Segmentation",
+	booktitle = Proceedings of the AAAI Conference on Artificial Intelligence,
+	year = "2022",
+	DOI={10.1609/aaai.v36i1.19985},
 }
 ```
