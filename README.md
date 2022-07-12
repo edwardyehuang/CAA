@@ -49,7 +49,7 @@ Since some of the original experiments (especially for ResNet-101) are conducted
 @InProceedings{cCAA,
 	author = "Ye Huang and Di Kang and Wenjing Jia and Xiangjian He and Liu liu",
 	title = "Channelized Axial Attention - Considering Channel Relation within Spatial Attention for Semantic Segmentation",
-	booktitle = Proceedings of the AAAI Conference on Artificial Intelligence,
+	booktitle = "Proceedings of the AAAI Conference on Artificial Intelligence",
 	year = "2022",
 	DOI={10.1609/aaai.v36i1.19985},
 }
